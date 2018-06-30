@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb52cb16-8002-4273-9451-e37b8ed924c3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/weizhang/BinaryTreeInorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weizhang/BinaryTreeMaxDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weizhang/BinaryTreePostorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weizhang/BinaryTreePreorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weizhang/BinaryTreeeLevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weizhang/FindPivotIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/weizhang/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weizhang/LargestNumberAtLeastTwiceOfOthers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/weizhang/PlusOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/weizhang/MapSumPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/weizhang/MapSumPairs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,19 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Trie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/weizhang/Trie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
-              <folding>
-                <element signature="e#1674#1675#0" expanded="true" />
-                <element signature="e#1725#1726#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MapSumPairs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/weizhang/MapSumPairs.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,11 +55,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindPivotIndex.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindPivotIndex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/weizhang/FindPivotIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            <state relative-caret-position="885">
+              <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlusOne.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/weizhang/PlusOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="48" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LargestNumberAtLeastTwiceOfOthers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/weizhang/LargestNumberAtLeastTwiceOfOthers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -133,15 +132,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -168,6 +158,8 @@
         <option value="$PROJECT_DIR$/src/com/weizhang/BinaryTreePostorder.java" />
         <option value="$PROJECT_DIR$/src/com/weizhang/BinaryTreeMaxDepth.java" />
         <option value="$PROJECT_DIR$/src/com/weizhang/FindPivotIndex.java" />
+        <option value="$PROJECT_DIR$/src/com/weizhang/PlusOne.java" />
+        <option value="$PROJECT_DIR$/src/com/weizhang/LargestNumberAtLeastTwiceOfOthers.java" />
       </list>
     </option>
   </component>
@@ -239,13 +231,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreePostOrder">
+  <component name="RunManager" selected="Application.PlusOne">
     <configuration name="BinaryTreePostOrder" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.weizhang.BinaryTreePostorder" />
       <module name="Leetcode2018" />
     </configuration>
+    <configuration name="FindPivotIndex" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.weizhang.FindPivotIndex" />
+      <module name="Leetcode2018" />
+    </configuration>
     <configuration name="MapSumPairs" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.weizhang.MapSumPairs" />
+      <module name="Leetcode2018" />
+    </configuration>
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.weizhang.PlusOne" />
       <module name="Leetcode2018" />
     </configuration>
     <configuration name="TrieMain" type="Application" factoryName="Application">
@@ -259,7 +259,14 @@
       <item itemvalue="Application.TrieMain" />
       <item itemvalue="Application.MapSumPairs" />
       <item itemvalue="Application.BinaryTreePostOrder" />
+      <item itemvalue="Application.FindPivotIndex" />
+      <item itemvalue="Application.PlusOne" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PlusOne" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -328,7 +335,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Trie solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Trie solution" />
+    <MESSAGE value="Add some more tree solution;&#10;Move onto the array problems" />
+    <MESSAGE value="add find pivot index" />
+    <option name="LAST_COMMIT_MESSAGE" value="add find pivot index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -344,8 +353,20 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/weizhang/PlusOne.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/weizhang/PlusOne.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -603,8 +624,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/weizhang/FindPivotIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        <state relative-caret-position="885">
+          <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/weizhang/PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/weizhang/LargestNumberAtLeastTwiceOfOthers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
         </state>
       </provider>
     </entry>
