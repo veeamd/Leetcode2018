@@ -53,18 +53,17 @@ public class FindPivotIndex {
         }
 
         // starting from the left
-        int left = nums[0];
-        int right = sum - left - nums[1];
-        int pointer = 1; // array index of the pointer
-        int lastIndex = nums.length - 1;
-        for (; pointer < lastIndex; pointer++) {
-            if (left == right) {
-                return pointer;
-            } else {
-                left += nums[pointer];
-                right -= nums[pointer + 1];
-            }
+        int left = 0;
+        for (int p = 0; p < nums.length; p++) {
+            if (p != 0) left += nums[p - 1];
+            if (sum - left - nums[p] == left) return p;
         }
-        return  -1;
+        return -1;
+    }
+
+    public static void main(String[] args) {
+        FindPivotIndex problem = new FindPivotIndex();
+        int[] nums = {-1,-1,-1,0,1,1};
+        int output = problem.pivotIndex(nums);
     }
 }
